@@ -69,7 +69,7 @@ Así tendrás un icono junto a tus demás apps, sin abrir el navegador cada vez.
 
 1. **Escribe el número** de la patera (por ejemplo `129`).
 2. Pulsa **Crear patera**. Si el número ya existe, abre la que ya tenías.
-3. El botón amarillo **GUIA DE USO** abre esta guía en PDF.
+3. El botón amarillo **GUIA DE USO** abre la guía en PDF. Abajo, siempre visible, el botón **Manual detallado** abre este manual.
 4. En **Pateras guardadas**, toca una para abrirla, cambiar de patera y editar sus campos y fotos.
 5. El botón **☰** (arriba a la izquierda) abre el menú:
 
@@ -87,19 +87,20 @@ Así tendrás un icono junto a tus demás apps, sin abrir el navegador cada vez.
 Abre **☰ → Mensaje inicial**. Todo se **guarda solo** mientras escribes.
 
 - **Selectores con "Otro":** en *Lugar de llegada*, *Requirente* y *Motores*, si eliges "Otro" aparece un cuadro para escribirlo.
-- **Cantidades:** solo números. Los títulos indican qué se pide, por ejemplo *MENAS VARONES (Cantidad)*.
-- **Pulseras:** escribe solo los números separados por comas (`1, 2, 3`). La app añade la `P-` sola; si escribes `P-1`, también vale.
-- **Unidades familiares y vinculadas:** escribe cuántas hay y aparecen casillas numeradas. Completa cada una, por ejemplo: `P-1 madre y P-2 hija`.
-- **Textos ya escritos:** *Avistamiento*, *Quién realiza el rescate* y *Datos embarcación* vienen con un texto de ejemplo. **Edítalo** a tu caso.
+- **Cantidades:** solo números. Los campos de pulseras aparecen un poco a la derecha, dentro de su categoría (por ejemplo, dentro de *Menas varones*).
+- **Pulseras:** escríbelas como quieras: `1, 2, 3`, `1,2,3`, `P1,P2,P3` o `P 1, P 2, P 3`. Al pasar al siguiente campo se ven así: `P1, P2, P3`.
+- **Unidades familiares y vinculadas:** escribe cuántas hay y aparecen casillas numeradas. La casilla 1 trae un ejemplo (`Px padre Py hijo` en UF, `Px hermano mayor Py hermano menor` en UV): edítalo o bórralo. Si no lo tocas, no sale en el mensaje.
+- **Nacionalidades:** debajo del cuadro hay botones **+Senegal, +Gambia, +Guinea, +Mauritania, +Guinea Bissau y +Costa Marfil**. Al pulsarlos se añaden al cuadro, sin repetir. También puedes escribir a mano.
+- **Textos ya escritos:** *Avistamiento*, *Datos del rescate*, *Quién realiza el rescate* y *Datos embarcación* vienen con un texto escrito. Edítalo o bórralo.
 
 ### Qué escribes y qué sale en el mensaje
 
-| Escribes | Sale en el mensaje |
-|---|---|
-| `17, 18` | `P-17 y P-18.` |
-| `10 13 28` | `P-10, P-13 y P-28.` |
-| `P-5` | `P-5.` |
-| *(vacío)* | `P-` |
+| Escribes | Se ve en el campo | Sale en el mensaje |
+|---|---|---|
+| `17, 18` | `P17, P18` | `P-17 y P-18.` |
+| `P1,P2,P3` | `P1, P2, P3` | `P-1, P-2 y P-3.` |
+| `P 4, P 5` | `P4, P5` | `P-4 y P-5.` |
+| *(vacío)* | *(vacío)* | Sin pulseras en esa línea |
 
 ---
 
@@ -122,7 +123,7 @@ Abre **☰ → Mensaje inicial**. Todo se **guarda solo** mientras escribes.
    ```
 
 3. Tú decides: **Volver a editar** para corregir, o **Finalizar de todos modos** si es correcto así.
-4. Se abre el **menú de compartir** del móvil: WhatsApp, correo, etc.
+4. Se abre el **menú de compartir** del móvil: WhatsApp, correo, etc. Los totales salen en negrita en WhatsApp.
 5. Si no se abre, aparece una ventana con **Copiar mensaje**, **Enviar por WhatsApp** y **Enviar por correo**.
 6. **Ver / compartir mensaje** muestra el texto completo para revisarlo y volver a enviarlo más tarde.
 
@@ -132,30 +133,32 @@ Abre **☰ → Mensaje inicial**. Todo se **guarda solo** mientras escribes.
 
 ## 5. Fotos: UF y Menas
 
-Abre **☰ → Fotos**. Hay dos zonas: **Fotos UF** (unidades familiares) y **Fotos Menas**.
+Abre **☰ → Fotos**. Hay cuatro zonas, en este orden: **Fotos UF**, **Fotos hoja de filiación UF**, **Fotos Menas** y **Fotos hoja de filiación MENAS**.
 
 1. **📷 Hacer foto:** abre la cámara. La primera vez, el móvil pide permiso: pulsa **Permitir**.
-2. **🖼 Galería:** elige una o varias fotos que ya tengas.
-3. **Escribe el nombre bajo cada foto:**
+2. **🖼 Añadir desde la galería:** elige una o varias fotos que ya tengas.
+3. **Escribe el nombre** en el cuadro de debajo de cada foto:
 
-| Zona | Formato | Ejemplos |
+| Zona | Título del cuadro | Ejemplos |
 |---|---|---|
-| **UF** | `nº de UF` - `nº de foto` | `1-1`, `1-2`, `2-1` |
-| **Menas** | `nº de pulsera` | `1`, `2`, `3` |
+| **UF** y su hoja de filiación | Introducir N°UF-N°Foto | `1-1`, `2-1`, `2-2`, `3-1` |
+| **Menas** y su hoja de filiación | Introducir N°Pulsera menor | `1`, `2` |
 
 4. **✕ (roja):** quita una foto.
 
-> ⚠️ El archivo se llamará **exactamente** como lo escribas. Si dejas una foto sin nombre, se guardará como `sin_nombre_1`, `sin_nombre_2`… Si repites un nombre, se añade `_2` para no perder ninguna.
+> ⚠️ El archivo se llamará **exactamente** como lo escribas. Si dejas una foto sin nombre, se guardará como `sin_nombre_1`, `sin_nombre_2`… Si repites un nombre en la misma carpeta, se añade `_2` para no perder ninguna.
 
 ---
 
 ## 6. Finalizar las fotos y crear el ZIP
 
-1. Pulsa **Finalizar y compartir ZIP** (pon nombre a todas las fotos antes).
+1. Pulsa **Finalizar y descargar ZIP** (pon nombre a todas las fotos antes).
 2. Espera unos segundos: el botón muestra *Comprimiendo…*
-3. Aparece la ventana del ZIP con dos botones:
-   - **Compartir ZIP:** abre el menú del móvil (WhatsApp, correo, Drive…).
-   - **Descargar ZIP:** lo guarda en el móvil para enviarlo después.
+3. Aparece la ventana del ZIP con el botón **⬇ Descargar ZIP** y un aviso de lo que hacer después.
+4. **Correo de destino (opcional):** encima del botón final hay un cuadro para guardar el correo al que envías, con un botón **Copiar** para pegarlo al enviar. Se guarda en el móvil.
+5. **Compártelo desde Descargas:** la app no puede enviar el ZIP por sí sola. Ábrelo desde Descargas o Archivos y compártelo por correo o WhatsApp (sección 7).
+
+El archivo se llama **`Fotos Patera X UF+MENAS.zip`**, donde X es el número de la patera.
 
 ### Qué contiene el ZIP
 
@@ -163,17 +166,19 @@ Abre **☰ → Fotos**. Hay dos zonas: **Fotos UF** (unidades familiares) y **Fo
 Fotos/
 ├── UF/
 │   ├── 1-1.jpg
-│   └── 1-2.jpg
+│   └── Hoja de filiación UF/
+│       └── 1-1.jpg
 └── Menas/
     ├── 1.jpg
-    └── 2.jpg
+    └── Hoja de filiación MENAS/
+        └── 1.jpg
 ```
 
 ---
 
 ## 7. Enviar un ZIP descargado (Chrome y Safari)
 
-Si pulsaste **Descargar ZIP**, el archivo queda en el móvil. Así lo envías después:
+El ZIP se descarga en el móvil. Así lo envías por correo o WhatsApp:
 
 ### 🤖 Android (Chrome)
 
@@ -189,8 +194,6 @@ Si pulsaste **Descargar ZIP**, el archivo queda en el móvil. Así lo envías de
 3. **Pulsa Compartir:** mantén pulsado el ZIP y elige **Compartir**. **No lo abras**, porque el iPhone lo descomprime.
 4. **Elige dónde enviarlo:** WhatsApp, Mail, AirDrop…
 
-> 💡 Lo más cómodo es usar siempre **Compartir ZIP** directamente.
->
 > 📧 El correo suele limitar los adjuntos a unos 25 MB. Si pesa más, usa WhatsApp o Drive.
 
 ---
@@ -210,7 +213,7 @@ Si pulsaste **Descargar ZIP**, el archivo queda en el móvil. Así lo envías de
 | Problema | Solución |
 |---|---|
 | La cámara o la galería no se abren | Abre la app en Chrome o Safari (o desde su icono), no desde WhatsApp ni desde el visor de otra app. Revisa que el permiso de cámara esté en **Permitir**. |
-| No se comparte el ZIP | Usa **Descargar ZIP** y envíalo desde Descargas (sección 7). |
+| La app no envía el ZIP | Es normal: el navegador no lo permite. Descárgalo y compártelo desde Descargas o Archivos (sección 7). |
 | Salta el aviso de totales | Revisa *Total personas*, *Total menores*, *Mujeres adultas* y *Hombres adultos*. Si es correcto, pulsa **Finalizar de todos modos**. |
 | Se han perdido las pateras | Pasa si se borran los datos del navegador o se desinstala la app. Envía siempre el mensaje y el ZIP al terminar. |
 | Falla al crear el ZIP | Necesitas conexión a internet al menos la primera vez (carga el compresor ZIP). |
