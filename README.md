@@ -91,7 +91,7 @@ Abre **☰ → Mensaje inicial**. Todo se **guarda solo** mientras escribes.
 - **Pulseras:** escríbelas como quieras: `1, 2, 3`, `1,2,3`, `P1,P2,P3` o `P 1, P 2, P 3`. Al pasar al siguiente campo se ven así: `P1, P2, P3`.
 - **Unidades familiares y vinculadas:** escribe cuántas hay y aparecen casillas numeradas. La casilla 1 trae un ejemplo (`Px padre Py hijo` en UF, `Px hermano mayor Py hermano menor` en UV): edítalo o bórralo. Si no lo tocas, no sale en el mensaje.
 - **Nacionalidades:** debajo del cuadro hay botones **+Senegal, +Gambia, +Guinea, +Mauritania, +Guinea Bissau y +Costa Marfil**. Al pulsarlos se añaden al cuadro, sin repetir. También puedes escribir a mano.
-- **Textos ya escritos:** *Avistamiento*, *Datos del rescate*, *Quién realiza el rescate* y *Datos embarcación* vienen con un texto escrito. Edítalo o bórralo.
+- **Textos ya escritos:** *Avistamiento*, *Datos del rescate*, *Quién realiza el rescate* y *Datos embarcación* vienen con un texto escrito. Edítalo, o bórralo de golpe con la **×** roja del final del campo.
 
 ### Qué escribes y qué sale en el mensaje
 
