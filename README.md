@@ -155,7 +155,7 @@ Abre **☰ → Fotos**. Hay cuatro zonas, en este orden: **Fotos UF**, **Fotos h
 1. Pulsa **Finalizar y descargar ZIP** (pon nombre a todas las fotos antes).
 2. Espera unos segundos: el botón muestra *Comprimiendo…*
 3. Aparece la ventana del ZIP con el botón **⬇ Descargar ZIP** y un aviso de lo que hacer después.
-4. **Correo de destino (opcional):** encima del botón final hay un cuadro para guardar el correo al que envías, con un botón **Copiar** para pegarlo al enviar. Se guarda en el móvil.
+4. **Correo de destino (opcional):** encima del botón final hay un cuadro con el correo de destino ya puesto (`hierro.extranjeria@policia.es`), una **×** roja para vaciarlo y un botón **Copiar** para pegarlo al enviar. Se guarda en el móvil.
 5. **Compártelo desde Descargas:** la app no puede enviar el ZIP por sí sola. Ábrelo desde Descargas o Archivos y compártelo por correo o WhatsApp (sección 7).
 
 El archivo se llama **`Fotos Patera X UF+MENAS.zip`**, donde X es el número de la patera.
