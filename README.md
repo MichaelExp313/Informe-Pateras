@@ -144,7 +144,8 @@ Abre **☰ → Fotos**. Hay cuatro zonas, en este orden: **Fotos UF**, **Fotos h
 | **UF** y su hoja de filiación | Introducir N°UF-N°Foto | `1-1`, `2-1`, `2-2`, `3-1` |
 | **Menas** y su hoja de filiación | Introducir N°Pulsera menor | `1`, `2` |
 
-4. **✕ (roja):** quita una foto.
+4. **Tipo de menor (solo Menas y su hoja de filiación):** debajo del nombre de cada foto hay un selector. Elige **Menor Indubitado** o **Menor Dubitado**. Mientras no lo elijas, el selector se ve con borde rojo.
+5. **✕ (roja):** quita una foto.
 
 > ⚠️ El archivo se llamará **exactamente** como lo escribas. Si dejas una foto sin nombre, se guardará como `sin_nombre_1`, `sin_nombre_2`… Si repites un nombre en la misma carpeta, se añade `_2` para no perder ninguna.
 
@@ -152,7 +153,7 @@ Abre **☰ → Fotos**. Hay cuatro zonas, en este orden: **Fotos UF**, **Fotos h
 
 ## 6. Finalizar las fotos y crear el ZIP
 
-1. Pulsa **Finalizar y descargar ZIP** (pon nombre a todas las fotos antes).
+1. Pulsa **Finalizar y descargar ZIP** (pon nombre a todas las fotos y clasifica las de menores antes). Si alguna foto de menores no tiene tipo, la app avisa: **Volver a clasificar** o **Crear ZIP de todos modos** (las no clasificadas van sueltas en su carpeta).
 2. Espera unos segundos: el botón muestra *Comprimiendo…*
 3. Aparece la ventana del ZIP con el botón **⬇ Descargar ZIP** y un aviso de lo que hacer después.
 4. **Correo de destino (opcional):** encima del botón final hay un cuadro con el correo de destino ya puesto (`hierro.extranjeria@policia.es`), una **×** roja para vaciarlo y un botón **Copiar** para pegarlo al enviar. Se guarda en el móvil.
@@ -169,9 +170,15 @@ Fotos/
 │   └── Hoja de filiación UF/
 │       └── 1-1.jpg
 └── Menas/
-    ├── 1.jpg
+    ├── Menores Indubitados/
+    │   └── 1.jpg
+    ├── Menores Dubitados/
+    │   └── 2.jpg
     └── Hoja de filiación MENAS/
-        └── 1.jpg
+        ├── Menores Indubitados/
+        │   └── 1.jpg
+        └── Menores Dubitados/
+            └── 2.jpg
 ```
 
 ---
