@@ -71,6 +71,7 @@ Así tendrás un icono junto a tus demás apps, sin abrir el navegador cada vez.
 2. Pulsa **Crear patera**. Si el número ya existe, abre la que ya tenías.
 3. El botón amarillo **GUIA DE USO** abre la guía en PDF. Abajo, siempre visible, el botón **Manual detallado** abre este manual.
 4. En **Pateras guardadas**, toca una para abrirla, cambiar de patera y editar sus campos y fotos.
+5. El botón de **tema** (arriba a la derecha) cambia entre **🌓 Auto** (como el móvil), **☀️ Claro** y **🌙 Oscuro**. Se recuerda para la próxima vez.
 5. El botón **☰** (arriba a la izquierda) abre el menú:
 
 | Opción del menú | Para qué sirve |
